@@ -1,0 +1,1 @@
+[{"url": "https://raw.githubusercontent.com/Andorth/atlantis/master/main.xml", "fanart": "https://addons.000webhostapp.com/imagenes/fanart.jpg", "title": "[COLOR gold]Atlantis[/COLOR]"}]

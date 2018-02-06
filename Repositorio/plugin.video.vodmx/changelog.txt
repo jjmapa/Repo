@@ -1,0 +1,22 @@
+Version 2.0.6
+Fix on url including special characters
+Version 2.0.5
+Fix encoding names on lists UTF-8 improved
+Version 2.0.4
+Fix encoding names on lists
+Added records
+Version 2.0.3
+Fix al regresar cuando navegas entre series
+Version 2.0.2
+Fix en TV en VIVO
+Version 2.0.1
+Fix en búsqueda y catálogo de series
+Version 2.0.0
+Mejoras en menú principal
+Agregado Buscador general 
+Version 1.0.2
+Se agregó un nuevo repositorio
+Version 1.0.1
+Se añadieron mas secciones y TV en Vivo
+Version 1.0.0
+Lanzamiento de la primera version con películas y series.

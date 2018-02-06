@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.repojhgmaster3" name="[COLOR lime]JHGMASTER[/COLOR] Repo" version="1.0.1" provider-name="Yo Mismo">
+    <extension point="xbmc.addon.repository" name="JHGMASTER">
+        <info>https://raw.githubusercontent.com/lokiyotnt69/RepoJhgmaster3/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/lokiyotnt69/RepoJhgmaster3/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/lokiyotnt69/RepoJhgmaster3/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Mi GENTE</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>

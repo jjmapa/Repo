@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.BRIBRI"
+       name="[I][B][COLOR red]BRI[/COLOR][COLOR blue]BRI[/COLOR][/B][/I]"
+       version="[I][B][COLOR lightskyblue]1.0.2[/COLOR][/B][/I]"
+       provider-name="[COLOR white][I][B]Pedro Alfonso[/B][/I][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red][B]*Un add-on totalmente gratis*[/B][/COLOR]</summary>
+    <description lang="en">[COLOR aquamarine] [B]  Hemos tratado de crear un add-on para entretenimiento.Es un add-on totalmente gratis,si alguien le quiere cobrar por el,favor de comunicarce con nosotros.Gracias[/B][/COLOR]</description>
+<description lang="es"></description>
+     <disclaimer lang="en">BRIBRI is free and at your own risk if the laws in your country prohibit reproduction of this content</disclaimer>
+		<disclaimer lang="es">BRIBRI es gratuito y bajo tu responsabilidad si las leyes en tu pais prohiben la reproduccion de este contenido</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

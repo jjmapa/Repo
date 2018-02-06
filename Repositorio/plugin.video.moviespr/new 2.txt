@@ -1,0 +1,189 @@
+<item>
+<title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] ** [COLOR lime]Arrow Temp 1[/COLOR] **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] **  [makelist.param3] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+		<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/arrow-t1-33998/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/arrow-t1-33998/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] ** [COLOR lime]Arrow Temp 2[/COLOR] **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] **  [makelist.param3] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+		<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/arrow-t2-34037/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/arrow-t2-34037/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] ** [COLOR lime]Arrow Temp 3[/COLOR] **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] **  [makelist.param3] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+		<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/arrow-t3-34062/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/arrow-t3-34062/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] ** [COLOR lime]Arrow Temp 4[/COLOR] **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] **  [makelist.param3] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+		<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/arrow-t4-34130/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/arrow-t4-34130/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] ** [COLOR lime]Arrow Temp 5[/COLOR] **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow]movies[/COLOR][COLOR red]pr[/COLOR] **  [makelist.param3] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+		<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/arrow-t5-41471/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/arrow-t5-41471/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+</item>

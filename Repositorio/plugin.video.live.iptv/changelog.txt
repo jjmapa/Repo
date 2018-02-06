@@ -1,0 +1,14 @@
+[B]1.0.5[/B]
+-Fixed issue with F4M playing TS links
+[B]1.0.4[/B]
+-Removed Adult Section - Minor Tweaks
+[B]1.0.3[/B]
+-Added Adult Section
+[B]1.0.2[/B]
+-Added 2nd Live Source & Release
+[B]0.0.3[/B]
+-Search Enhancements and source updates
+[B]0.0.2[/B]
+-Artwork Update
+[B]0.0.1[/B]
+-Initial Release

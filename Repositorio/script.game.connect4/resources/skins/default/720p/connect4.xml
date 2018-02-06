@@ -1,0 +1,279 @@
+<window>
+	<defaultcontrol>9098</defaultcontrol>
+	<backgroundcolor>0x00000000</backgroundcolor>
+	<defaultcontrol always="true">1</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<animation effect="slide" start="1200,0" end="0,0" time="500">WindowOpen</animation>
+	<animation effect="slide" end="1200,0" time="500">WindowClose</animation>
+	
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
+	
+	<controls>
+		<control type="group">
+			<posx>0</posx>
+			<posy>0</posy>
+			
+			<!-- BACKGROUND -->
+			<control type="image" id="101">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<texture border="0">$INFO[skin.string(WindowBack)]</texture>
+			</control>
+			<!-- Background Image -->
+			<control type="image" id="102">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<texture border="0">$INFO[skin.string(WindowBG)]</texture>
+				<aspectratio>stretch</aspectratio>
+			</control>
+			<!-- Game Board - Background -->
+			<control type="label" id="311"><posx>350</posx> <posy>0</posy><width>525</width> <height>65</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(TitleTC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(TitleLT)][/UPPERCASE][/B]</label></control>
+			<control type="image" id="168"><posx>700</posx><posy>15</posy> <width>93</width> <height>93</height><animation effect="rotatex" delay="900" start="400,-300" end="0" center="288,360" time="1600">WindowOpen</animation><texture border="0">$INFO[skin.string(GamePR)]</texture><aspectratio>stretch</aspectratio></control>
+			<control type="image" id="169"><posx>426</posx><posy>15</posy> <width>93</width> <height>93</height><animation effect="rotatey" delay="900" start="-300,200" end="0" center="288,360" time="1600">WindowOpen</animation><texture border="0">$INFO[skin.string(GamePB)]</texture><aspectratio>stretch</aspectratio></control>
+			<control type="image" id="312"><posx>425</posx><posy>10</posy><width>375</width><height>100</height><animation effect="fade" delay="800" start="0" end="100" time="600">WindowOpen</animation><texture border="0">$INFO[skin.string(TitleImg)]</texture><aspectratio>stretch</aspectratio>
+			</control>
+			<control type="label" id="312"><posx>350</posx><posy>120</posy><width>525</width><height>45</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(WhosTurnTC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(WhosTurnLT)][/UPPERCASE][/B]</label></control>
+			<control type="group" id="103"><posx>350</posx><posy>175</posy><width>525</width><height>390</height>
+				<animation effect="slide" delay="800" start="0,-1000" time="1800">WindowOpen</animation>
+				
+				<control type="group" id="271"><posx>0</posx><posy>65</posy><width>525</width><height>65</height>
+					<control type="image" id="204"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot1x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="205"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot1x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="206"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot1x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="207"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot1x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="208"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot1x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="209"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot1x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="210"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot1x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="272"><posx>0</posx><posy>130</posy><width>525</width><height>65</height>
+					<control type="image" id="211"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot2x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="212"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot2x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="213"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot2x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="214"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot2x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="215"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot2x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="216"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot2x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="217"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot2x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="273"><posx>0</posx><posy>195</posy><width>525</width><height>65</height>
+					<control type="image" id="218"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot3x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="219"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot3x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="220"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot3x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="221"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot3x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="222"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot3x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="223"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot3x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="224"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot3x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="274"><posx>0</posx><posy>260</posy><width>525</width><height>65</height>
+					<control type="image" id="225"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot4x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="226"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot4x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="227"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot4x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="228"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot4x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="229"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot4x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="230"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot4x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="231"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot4x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="275"><posx>0</posx><posy>325</posy><width>525</width><height>65</height>
+					<control type="image" id="232"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot5x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="233"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot5x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="234"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot5x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="235"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot5x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="236"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot5x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="237"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot5x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="238"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot5x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="276"><posx>0</posx><posy>390</posy><width>525</width><height>65</height>
+					<control type="image" id="239"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot6x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="240"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot6x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="241"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot6x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="242"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot6x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="243"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot6x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="244"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot6x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="245"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pbGameSlot6x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				
+				
+				
+				<control type="group" id="471"><posx>0</posx><posy>65</posy><width>525</width><height>65</height>
+					<control type="image" id="404"><visible>skin.string(pGameSlot1x1V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot1x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="405"><visible>skin.string(pGameSlot1x2V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot1x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="406"><visible>skin.string(pGameSlot1x3V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot1x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="407"><visible>skin.string(pGameSlot1x4V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot1x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="408"><visible>skin.string(pGameSlot1x5V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot1x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="409"><visible>skin.string(pGameSlot1x6V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot1x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="410"><visible>skin.string(pGameSlot1x7V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot1x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="472"><posx>0</posx><posy>130</posy><width>525</width><height>65</height>
+					<control type="image" id="411"><visible>skin.string(pGameSlot2x1V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot2x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="412"><visible>skin.string(pGameSlot2x2V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot2x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="413"><visible>skin.string(pGameSlot2x3V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot2x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="414"><visible>skin.string(pGameSlot2x4V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot2x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="415"><visible>skin.string(pGameSlot2x5V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot2x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="416"><visible>skin.string(pGameSlot2x6V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot2x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="417"><visible>skin.string(pGameSlot2x7V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot2x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="473"><posx>0</posx><posy>195</posy><width>525</width><height>65</height>
+					<control type="image" id="418"><visible>skin.string(pGameSlot3x1V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot3x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="419"><visible>skin.string(pGameSlot3x2V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot3x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="420"><visible>skin.string(pGameSlot3x3V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot3x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="421"><visible>skin.string(pGameSlot3x4V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot3x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="422"><visible>skin.string(pGameSlot3x5V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot3x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="423"><visible>skin.string(pGameSlot3x6V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot3x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="424"><visible>skin.string(pGameSlot3x7V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot3x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="474"><posx>0</posx><posy>260</posy><width>525</width><height>65</height>
+					<control type="image" id="425"><visible>skin.string(pGameSlot4x1V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot4x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="426"><visible>skin.string(pGameSlot4x2V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot4x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="427"><visible>skin.string(pGameSlot4x3V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot4x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="428"><visible>skin.string(pGameSlot4x4V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot4x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="429"><visible>skin.string(pGameSlot4x5V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot4x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="430"><visible>skin.string(pGameSlot4x6V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot4x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="431"><visible>skin.string(pGameSlot4x7V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot4x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="475"><posx>0</posx><posy>325</posy><width>525</width><height>65</height>
+					<control type="image" id="432"><visible>skin.string(pGameSlot5x1V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot5x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="433"><visible>skin.string(pGameSlot5x2V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot5x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="434"><visible>skin.string(pGameSlot5x3V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot5x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="435"><visible>skin.string(pGameSlot5x4V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot5x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="436"><visible>skin.string(pGameSlot5x5V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot5x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="437"><visible>skin.string(pGameSlot5x6V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot5x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="438"><visible>skin.string(pGameSlot5x7V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot5x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="476"><posx>0</posx><posy>390</posy><width>525</width><height>65</height>
+					<control type="image" id="439"><visible>skin.string(pGameSlot6x1V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot6x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="440"><visible>skin.string(pGameSlot6x2V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot6x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="441"><visible>skin.string(pGameSlot6x3V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot6x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="442"><visible>skin.string(pGameSlot6x4V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot6x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="443"><visible>skin.string(pGameSlot6x5V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot6x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="444"><visible>skin.string(pGameSlot6x6V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot6x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="445"><visible>skin.string(pGameSlot6x7V)</visible><animation effect="slide" delay="0" start="0,-465" time="1800">VisibleChange</animation><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(pGameSlot6x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				
+				<control type="group" id="171"><posx>0</posx><posy>65</posy><width>525</width><height>65</height>
+					<control type="image" id="104"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot1x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="105"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot1x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="106"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot1x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="107"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot1x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="108"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot1x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="109"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot1x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="110"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot1x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="172"><posx>0</posx><posy>130</posy><width>525</width><height>65</height>
+					<control type="image" id="111"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot2x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="112"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot2x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="113"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot2x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="114"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot2x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="115"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot2x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="116"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot2x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="117"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot2x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="173"><posx>0</posx><posy>195</posy><width>525</width><height>65</height>
+					<control type="image" id="118"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot3x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="119"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot3x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="120"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot3x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="121"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot3x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="122"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot3x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="123"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot3x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="124"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot3x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="174"><posx>0</posx><posy>260</posy><width>525</width><height>65</height>
+					<control type="image" id="125"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot4x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="126"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot4x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="127"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot4x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="128"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot4x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="129"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot4x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="130"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot4x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="131"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot4x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="175"><posx>0</posx><posy>325</posy><width>525</width><height>65</height>
+					<control type="image" id="132"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot5x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="133"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot5x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="134"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot5x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="135"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot5x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="136"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot5x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="137"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot5x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="138"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot5x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				<control type="group" id="176"><posx>0</posx><posy>390</posy><width>525</width><height>65</height>
+					<control type="image" id="139"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot6x1)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="140"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot6x2)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="141"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot6x3)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="142"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot6x4)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="143"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot6x5)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="144"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot6x6)]</texture><aspectratio>stretch</aspectratio></control>
+					<control type="image" id="145"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot6x7)]</texture><aspectratio>stretch</aspectratio></control>
+				</control>
+				
+				
+				
+				<!--
+				<control type="image" id="204"><posx>0</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot)]</texture><aspectratio>stretch</aspectratio></control>
+				<control type="label" id="205">
+					<description>Talking</description>
+					<posx>55</posx><posy>35</posy>
+					<width>1000</width>
+					<height>40</height>
+					<font>font13</font>
+					<aligny>top</aligny>
+					<align>left</align>
+					<textcolor>$INFO[skin.string(TextNameClr)]</textcolor>
+					<shadowcolor>FF000000</shadowcolor>
+					<label>[B][UPPERCASE]$INFO[skin.string(TextName)][/UPPERCASE][/B]</label>
+					<wrapmultiline>false</wrapmultiline>
+				</control>
+				-->
+				
+				<control type="group" id="170"><posx>0</posx><posy>0</posy><width>525</width><height>65</height>
+					<animation effect="slide" delay="1400" start="0,-1000" time="1800">WindowOpen</animation>
+					<control type="button" id="161"><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot0x1)]</texture><aspectratio>stretch</aspectratio><texturefocus>4hub-board.png</texturefocus><texturenofocus>4row-board.png</texturenofocus><visible allowhiddenfocus="true">skin.string(GameSlot0x1V)</visible><enable>skin.string(GameSlot0x1E)</enable></control>
+					<control type="button" id="162"><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot0x2)]</texture><aspectratio>stretch</aspectratio><texturefocus>4hub-board.png</texturefocus><texturenofocus>4row-board.png</texturenofocus><visible allowhiddenfocus="true">skin.string(GameSlot0x2V)</visible><enable>skin.string(GameSlot0x2E)</enable></control>
+					<control type="button" id="163"><posx>150</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot0x3)]</texture><aspectratio>stretch</aspectratio><texturefocus>4hub-board.png</texturefocus><texturenofocus>4row-board.png</texturenofocus><visible allowhiddenfocus="true">skin.string(GameSlot0x3V)</visible><enable>skin.string(GameSlot0x3E)</enable></control>
+					<control type="button" id="164"><posx>225</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot0x4)]</texture><aspectratio>stretch</aspectratio><texturefocus>4hub-board.png</texturefocus><texturenofocus>4row-board.png</texturenofocus><visible allowhiddenfocus="true">skin.string(GameSlot0x4V)</visible><enable>skin.string(GameSlot0x4E)</enable></control>
+					<control type="button" id="165"><posx>300</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot0x5)]</texture><aspectratio>stretch</aspectratio><texturefocus>4hub-board.png</texturefocus><texturenofocus>4row-board.png</texturenofocus><visible allowhiddenfocus="true">skin.string(GameSlot0x5V)</visible><enable>skin.string(GameSlot0x5E)</enable></control>
+					<control type="button" id="166"><posx>375</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot0x6)]</texture><aspectratio>stretch</aspectratio><texturefocus>4hub-board.png</texturefocus><texturenofocus>4row-board.png</texturenofocus><visible allowhiddenfocus="true">skin.string(GameSlot0x6V)</visible><enable>skin.string(GameSlot0x6E)</enable></control>
+					<control type="button" id="167"><posx>450</posx><posy>0</posy><width>75</width><height>65</height><texture border="0">$INFO[skin.string(GameSlot0x7)]</texture><aspectratio>stretch</aspectratio><texturefocus>4hub-board.png</texturefocus><texturenofocus>4row-board.png</texturenofocus><visible allowhiddenfocus="true">skin.string(GameSlot0x7V)</visible><enable>skin.string(GameSlot0x7E)</enable></control>
+					<control type="group" id="177"><posx>0</posx><posy>0</posy><width>525</width><height>65</height>
+						<control type="label" id="151"><animation effect="slide" delay="1600" start="0,-1000" time="1800">WindowOpen</animation><posx>0</posx>  <posy>0</posy><width>75</width><height>65</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(GameSlot0x1TC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(GameSlot0x1LT)][/UPPERCASE][/B]</label></control>
+						<control type="label" id="152"><animation effect="slide" delay="1700" start="0,-1000" time="1800">WindowOpen</animation><posx>75</posx> <posy>0</posy><width>75</width><height>65</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(GameSlot0x2TC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(GameSlot0x2LT)][/UPPERCASE][/B]</label></control>
+						<control type="label" id="153"><animation effect="slide" delay="1800" start="0,-1000" time="1800">WindowOpen</animation><posx>150</posx><posy>0</posy><width>75</width><height>65</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(GameSlot0x3TC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(GameSlot0x3LT)][/UPPERCASE][/B]</label></control>
+						<control type="label" id="154"><animation effect="slide" delay="1900" start="0,-1000" time="1800">WindowOpen</animation><posx>225</posx><posy>0</posy><width>75</width><height>65</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(GameSlot0x4TC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(GameSlot0x4LT)][/UPPERCASE][/B]</label></control>
+						<control type="label" id="155"><animation effect="slide" delay="2000" start="0,-1000" time="1800">WindowOpen</animation><posx>300</posx><posy>0</posy><width>75</width><height>65</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(GameSlot0x5TC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(GameSlot0x5LT)][/UPPERCASE][/B]</label></control>
+						<control type="label" id="156"><animation effect="slide" delay="2100" start="0,-1000" time="1800">WindowOpen</animation><posx>375</posx><posy>0</posy><width>75</width><height>65</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(GameSlot0x6TC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(GameSlot0x6LT)][/UPPERCASE][/B]</label></control>
+						<control type="label" id="157"><animation effect="slide" delay="2200" start="0,-1000" time="1800">WindowOpen</animation><posx>450</posx><posy>0</posy><width>75</width><height>65</height><font>font13</font><aligny>center</aligny><align>center</align><wrapmultiline>false</wrapmultiline><textcolor>$INFO[skin.string(GameSlot0x7TC)]</textcolor><shadowcolor>FF000000</shadowcolor><label>[B][UPPERCASE]$INFO[skin.string(GameSlot0x7LT)][/UPPERCASE][/B]</label></control>
+					</control>
+				</control>
+				
+			</control>
+			
+			
+			<!-- LABELS HEADING -->
+			
+			<!-- CONTAINER USED FOR PROPERTY ONLY -->
+			
+			<!-- GROUP OPTIONS BUTTONS -->
+			
+			<!-- BUTTON CLOSE DIALOG MOUSE ONLY -->
+			<control type="button" id="300">
+				<description>Close Window button</description>
+				<posx>1245</posx>
+				<posy>0</posy>
+				<width>35</width>
+				<height>20</height>
+				<texturefocus>close-window-focus.png</texturefocus>
+				<texturenofocus>close-window-normal.png</texturenofocus>
+			</control>
+			
+			
+			
+		</control>
+		
+		
+	</controls>
+</window>
