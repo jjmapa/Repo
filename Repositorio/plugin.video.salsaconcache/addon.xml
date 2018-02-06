@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.salsaconcache"
+	name="[COLOR lime]Salsa con Cache[/COLOR]"
+	version="1.0"
+	provider-name="C.Prado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR white]Conciertos, videos y CDs de Salsa de YouTube[/COLOR]</summary>
+    <description lang="en">[COLOR white]Todo el contenido de éste addon es de YouTube, todas las actualizaciones y cambios seran publicadas en el grupo de KODI PR, les invito a unirse para que así obtengan siempre la última versión. https://www.facebook.com/groups/602077913289824/[/COLOR]</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>

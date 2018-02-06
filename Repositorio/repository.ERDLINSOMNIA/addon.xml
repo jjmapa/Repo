@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ERDLINSOMNIA" name="[COLOR white]Repositorio[/COLOR] [COLOR grey]ERDL[/COLOR] [COLOR white]INSOMNIA[/COLOR]" version="0.0.1" provider-name="LoloTeam">
+    <extension point="xbmc.addon.repository" name="ERDL INSOMNIA">
+        <info>https://raw.githubusercontent.com/djliptv/INSOMNIA/master/REPOSITORIO/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/djliptv/INSOMNIA/master/REPOSITORIO/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/djliptv/INSOMNIA/master/REPOSITORIO/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR white]Repositorio[/COLOR] [COLOR grey]ERDL[/COLOR] [COLOR white]INSOMNIA[/COLOR]</summary>
+        <description>Repositorio oficial de El Rincon Del Lolo Team</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
