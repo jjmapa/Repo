@@ -88,38 +88,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.adryanlist"
-       name="AdryanList"
-       version="2.8.2"
-       provider-name="Adryan">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>AdryanList  - Television - Peliculas - Series</summary>
-    <description>Adryanlist
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.aerobic"
        name="[COLOR pink]Aerobic[/COLOR]"
        version="0.0.2"
@@ -882,86 +850,6 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
     <summary>[COLOR limegreen][B]Entretenimiento latino[/B][/COLOR]</summary>
     <description>Fusion.orgando Deadpool MiFlix InfinityAddon Hack Veneno Kike Pank Manuel L.
 
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Hercules"
-       name="Hercules"
-       version="1.3.5"
-       provider-name="Netai">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-	<import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-
-	<import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Hercules: Peliculas, Series, Torrent, documentales, programas tv</summary>
-    <description>
-    Addon Creado por Netai con la inestimable ayuda y soporte de AdryanList y Catoal!
-	Grupo Netai GNU/GPU 2018 LICENCE.
-
-	Ahora se puede consultar en la web del grupo Netai http:gruponetai.com
-	dicha licencia. Esta ira variando con el paso del tiempo. Tambien puede solicitarla en el telegram a los comprañeros.
-
-    </description>
-    <platform>all</platform>
-    </extension>
-    </addon>
-
-<addon id="plugin.video.INSOMNIA"
-       name="[COLOR white]INSOMNIA[/COLOR]"
-       version="0.0.3"
-       provider-name="LOLO TEAM">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-    <extension point="xbmc.addon.repository" name="ERDL INSOMNIA">
-        <info>https://raw.githubusercontent.com/djliptv/INSOMNIA/master/REPOSITORIO/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/djliptv/INSOMNIA/master/REPOSITORIO/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/djliptv/INSOMNIA/master/REPOSITORIO/</datadir>
-    </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>INSOMNIA</summary>
-    <description>
-    Addon Creado por LOLO TEAM.
-	LOLO TEAM GNU/GPU 2018 LICENSE
     </description>
     <platform>all</platform>
   </extension>
@@ -2993,22 +2881,6 @@ em procura livre na internet.</description>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
-    </extension>
-</addon>
-
-    <addon id="repository.adryan" name="ADRYAN Repositorio" version="2.0.2" provider-name="adryan">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Adryan Repositorio Oficial">
-            <info compressed="false">https://raw.githubusercontent.com/adrianhn/adryanrepo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/adrianhn/adryanrepo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/adrianhn/adryanrepo/master/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repositorio para AdryanList 2.0.2</summary>
-            <description>Repositorio que pertenece a AdryanList.</description>
-            <platform>all</platform>
     </extension>
 </addon>
 
