@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.uwc" name="Ultimate Whitecream repository" version="1.0" provider-name="holisticdioxide">
+    <extension point="xbmc.addon.repository" name="Ultimate Whitecream repository">
+        <info compressed="false">https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ultimate Whitecream repository</summary>
+        <description>Ultimate Whitecream repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>

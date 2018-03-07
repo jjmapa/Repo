@@ -1,0 +1,463 @@
+<item>
+<title>[COLOR white]Acestream Channels[/COLOR]</title>
+<link>
+sublink:plugin://plugin.video.f4mTester/?url=  ;&amp;streamtype=HLSRETRY&amp;name=BOOM! for Lee#
+</link>
+<thumbnail>https://imgur.com/nbKISKB.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR red] **Plexus & Acestream Engine Required**[/COLOR]</title>
+<link>http:// kingdom .com</link>
+<thumbnail>https://imgur.com/L1mVSPz.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<plugin>
+<title>[COLOR coral]BBC ONE UK[/COLOR]</title>
+<link>plugin://program.plexus/?url=acestream://a30c60fe37ef98a276b0daafcdc0527f534142c5&amp;mode=1&amp;name=BOOM4Lee#</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/1/1a/BBC_One_2002.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</plugin>
+</item>
+
+<item>
+<title>[COLOR coral]BBC World News[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://a75bf6aba4fd4afa616dcc9144af6a6f7cb2cbe1&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://www.bbc.co.uk/news/special/2015/newsspec_10857/bbc_news_logo.png?cb=1</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]VH1[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://2277891351e4764e23fada0f7b3477bb95c0e5aa&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/1200px-VH1_logonew.svg.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]VH1 Classic[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://1049e09dc3d64009fa51563dbb61013e446054d6&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/VH1_Classic_UK.svg/1200px-VH1_Classic_UK.svg.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]NBC[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://63b04b73b7fdea217187200576c4704bf3860aee
+&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://corporate.comcast.com/images/nbc-logo-thumbnail.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]1 MUSIC CHANNEL[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://71e4113524c1e480e40cba88bbb946d919d7f219&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://pbs.twimg.com/profile_images/879677753645309952/G2vqlMxX.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR coral]MTV BASE UK[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://89ac5fc327a2524851201768238295b27e42c068&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://pbs.twimg.com/profile_images/799333858550435840/hI76VKKj.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]SKY ONE UK[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://d9135fcc98750c7baa7f0911828ca0dfd0d32054&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://pbs.twimg.com/profile_images/917268080207843328/eaoc01UX_400x400.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]SKY LIVING UK[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://a1323768c7e138c7102469791d6a1add5a625b09&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://www.broadbandchoices.co.uk/remote/cc-umbraco-images.s3.amazonaws.com/bc/NewsImages/Sky-Living304x171.png.ashx?width=304&height=171</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]RACING UK[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://6326e6d9072a6c89c34635c399c40c847838f912&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://newburyracecourse.co.uk/documents/Racing-Uk-420x240.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR coral]Sky Sports Main Event[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://e061202217ea02d1c62e03688eaa3a60ee7b6829&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/qYTJ6C4.png </thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Sky Sports Cricket[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://e524f1380a0f1549895f6727368c8ddffb3a8c37&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/OkCYDCr.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Sky Sports Action[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://c4ff54b834532047fc0aa1779d17281f193d6938&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/cQL86D7.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Sky Sports Golf[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://2d90f57b2c8a5e12b30fed41b6b5ac7a122f68ca&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/2l6jKx9.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Sky Sports Premier League[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://bd90b972fafedec4211b18b6c34a5c2253ae94de&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/zaZTmuh.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Sky Sports Mix[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://94587b0ba9280eb29092a591e35ffa08091caf95&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/J0BfKsH.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]BT Sport 1[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://3cf32325ca45e0179e0b1a3e3ad8d2de5296edcd&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://sportplaylists.com/wp-content/uploads/2016/11/photo.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+
+<item>
+<title>[COLOR coral]BT Sport 2[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://33b428a9cec1d7d2cd2809d8e49a687e167378a6&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://sportplaylists.com/wp-content/uploads/2016/11/photo.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]BT Sport 3[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://66ce42b59cd7028be149ee7e7ca17066910b2db3&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://sportplaylists.com/wp-content/uploads/2016/11/photo.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]BT Sport ESPN[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://236b59bb00513c9fbb362ec3fbbd14671b8902e8&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://sportplaylists.com/wp-content/uploads/2016/11/photo.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]beIN La Liga[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://f5fc0d3847c7027cfbe7d6c6c64bf76191de02b1&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/kFw9Sbx.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]beIN Sports USA[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://7064ed08ee876a36061d43b646a00524f27141fd&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://pbs.twimg.com/profile_images/836315760196640768/yb5H3xEX.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Box Nation[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://c78ccb79c9a3a96333581062eaf7cd94d4f8272f&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://is1.mzstatic.com/image/thumb/Purple62/v4/fb/01/98/fb01983b-52ad-9979-819f-b2f64727fdf7/source/1200x630bb.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]eir Sport 2[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://0cec6c0299c99f45c1859398d150c3a48e6d8b2e&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://is5.mzstatic.com/image/thumb/Purple117/v4/c2/70/49/c27049f8-6081-7a3b-3e91-9e47a2523250/source/1200x630bb.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]ESPN[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://1b5d60f9dd29e76c7419de293a9597e138388205&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/syquGUp.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Eurosport 1[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://f95d13a9366e47bae2de0dd04fd0831ee8ecb59e&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://layout.eurosport.com/i/v8/promo_mobile/news/wen/logo.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Eurosport 2[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://5db25a09ab7b68214352b06cb1720bb698ba824f&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://layout.eurosport.com/i/v8/promo_mobile/news/wen/logo.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Fox Sports 1 (US)[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://9a8fd4918cb4f864e0d63a6821a55806f68dc0cc&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/Iy4n06U.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Fox Sports 2 (US)[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://f24dc1c4deadae89f7d12349e6e830e19d88aac0&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/19PVBsh.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Match! Arena[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://fd89eeaa3840ab671b9a1d49f562ce424481b20f&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/ZVQEK80.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Match! Football 1[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://2898ce8a77d68e870baf13c7c796fbb0caf5aebf&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/ZVQEK80.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+
+<item>
+<title>[COLOR coral]Match! Football 2[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://85fa38c83f79346eac7b86285dc2ef9d422e6d67&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/ZVQEK80.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Match! Football 3[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://150ab12f49e148ce25ca5eace59f10138449d8c2&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/ZVQEK80.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Match! Fight[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://28f0e21078d0a26d6c7f4997d24b66034e98476b&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/ZVQEK80.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Match! TV[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://e3581d0619df391e8ba84cea094614a031199d50&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/MatchTV_Logo.svg/1200px-MatchTV_Logo.svg.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]NBCSN[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://5144119f056c82f44849d063dad2234e3046ae40&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://thecomeback.com/awfulannouncing/wp-content/uploads/sites/94/2014/01/nbcsnblack.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Nova Sport (BG)[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://af863cf043df2cb8f63f2026d971e95d0a5c94e6&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/2HPzweE.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Premier Sports[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://e4d9f7188e4403523c32717a98093671f8931101&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/JEielOM.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Premier Sports HD[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://a4b60863a84bc3049a24c3d02a099182200c0f1b&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://i.imgur.com/JEielOM.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Sportdigital[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://f62005a3d1cb2ac0396357dc0b245c8cd64805da&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://pbs.twimg.com/profile_images/2943244332/c2da8160b0b10f6de01b2574d5abe28e_400x400.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]SportsNet 360[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://321a77f6604acc7c994b1485bc0de1d9e68aea7b&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://is3.mzstatic.com/image/thumb/Purple71/v4/80/25/76/802576f2-9b0a-5612-a7bc-e3049a8aa89d/source/175x175bb.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]SportsNet Ontario[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://3bf2c431f2863b3f35d9de750177ed6be9d7d232&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://is3.mzstatic.com/image/thumb/Purple71/v4/80/25/76/802576f2-9b0a-5612-a7bc-e3049a8aa89d/source/175x175bb.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]SportsNet World[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://acestream://6e5016bc0258b062c0610e658615369feb8000a5&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>http://is3.mzstatic.com/image/thumb/Purple71/v4/80/25/76/802576f2-9b0a-5612-a7bc-e3049a8aa89d/source/175x175bb.jpg</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]TSN 1[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://ea4acda277d3b475b9a3055846d8c7a15300afb0&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://media.glassdoor.com/sqll/700491/tsn-squarelogo-1480436140042.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]TSN 2[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://3c5bab6e54a9405b96ae4f38e69791ced681068e&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://media.glassdoor.com/sqll/700491/tsn-squarelogo-1480436140042.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]TSN 3[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://7751ab0b9fda8b9069039ca4ecf05b19fb32bdbc&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://media.glassdoor.com/sqll/700491/tsn-squarelogo-1480436140042.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]TSN 4[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://f9b79a854358d98cbb26468f457877afaf06da83&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://media.glassdoor.com/sqll/700491/tsn-squarelogo-1480436140042.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]TSN 5[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://9723e5644e704b398c8a3ff2a76e8992b8002b86&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://media.glassdoor.com/sqll/700491/tsn-squarelogo-1480436140042.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>
+
+<item>
+<title>[COLOR coral]Viasat Sport[/COLOR]</title>
+<link>
+sublink:plugin://program.plexus/?url=acestream://5a7d9a8a370b0a5f49df00d246f8a21597ff40e0&amp;mode=1&amp;name=TheKingdom#
+</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/fi/4/45/Viasatsport.png</thumbnail>
+<fanart>https://imgur.com/IZywnla.png</fanart>
+</item>

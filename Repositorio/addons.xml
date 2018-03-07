@@ -26,6 +26,49 @@
 
 </addon>
 
+<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.3" provider-name="Chem@i">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+  <summary>ADV Set - Utilidades by Chem@i</summary>
+  <description>ADV Set. Utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Utilízalo con precaución.</description>
+	<news>[COLOR orange] ADV [/COLOR]Set v 2.3
+* BackUp and Restore, (incorporada la opcion de restaurar copia de seguridad)
+[COLOR gold][B]¡¡ ATENCION !![/B][/COLOR] [COLOR red]Antes de RESTAURAR un BackUp, hay que cambiar necesariamente a los skin por defecto, Confluence o Estuary[/COLOR]
+* Textos traducidos al castellano.
+
+	  </news>
+	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
+	  <platform>all</platform>
+	  <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    			<screenshot>resources/media/screenshot000.jpg</screenshot>
+    			<screenshot>resources/media/screenshot001.jpg</screenshot>
+    			<screenshot>resources/media/screenshot002.jpg</screenshot>
+    			<screenshot>resources/media/screenshot003.jpg</screenshot>
+    			<screenshot>resources/media/screenshot004.jpg</screenshot>
+    </assets>
+    <license>GNU/GPL - v2</license>
+    <forum>https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://</source>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+
+</addon>
+
 <addon id="plugin.program.SpeedTester.net" name="SpeedTester.net" version="1.0.2" provider-name="Twilight0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -36,6 +79,23 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">SpeedTester.net</summary>
     <description lang="en">SpeedTester.net will give you accurate Internet speed-ping test results.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.stva" name="STVA" version="1.0.0" provider-name="www.stva.ml">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">STVA wizard</summary>
+    <description lang="en">24/1/18
+Build STVA para Kodi17 y MyGica
+Web: www.stva.ml
+Telegram: t.me/stvabuild</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -101,6 +161,49 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.alfa" name="Alfa" version="2.5.1" provider-name="Alfa Addon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Navega con Kodi por páginas web.</summary>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
+      [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
+      » gnula                        » pelismagnet
+      » allcalidad                 » streamcherry
+      » streamango            » pepecine
+      » mejortorrent           » torrentrapid
+      » cinecalidad
+      ¤ arreglos internos
+      ¤ Agradecimientos a @prpeaprendiz y @ikarywarriors por colaborar.
+    </news>
+    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
+    <summary lang="en">Browse web pages using Kodi</summary>
+    <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
+    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://github.com/alfa-addon/addon</source>
+  </extension>
+  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
+  </extension>
+</addon>
+
 <addon id="plugin.video.AmerikanoTuga"
        name="[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR]"
        version="0.0.8b"
@@ -162,6 +265,28 @@ em procura livre na internet.
         <forum>https://forums.tvaddons.ag/mhancoc7-s-addons/</forum>
         <website>https://tvaddons.ag</website>
     </extension>
+</addon>
+
+<addon
+  id="plugin.video.animego"
+  version="1.0.5"
+  name="animego"
+  provider-name="Dknight">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.urlresolver"  version="0.0.1"/>
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>animego</summary>
+    <description>Watch anime on animego</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon
@@ -429,6 +554,47 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
+<addon id="plugin.video.cine" name="Cine" version="1.0.60" provider-name="Topo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Cine</summary>
+    <description>Addon de Cine</description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.classiccinema" name="Classic Cinema" provider-name="Jonathan Beluch (jbel)" version="2.1.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="plugin.video.youtube" version="3.3.0" />
+    <import addon="script.module.beautifulsoup" version="3.2.0" />
+    <import addon="script.module.xbmcswift2" version="1.3.1" />
+    <import addon="script.module.requests" version="0.13.2" />
+  </requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language />
+    <summary>Classic Cinema Video Addon</summary>
+    <description>Watch online video movies found at http://www.classiccinemaonline.com.  The site aggregates old movies and tv shows found on google video and archive.org.</description>
+    <disclaimer />
+  </extension>
+</addon>
+
 <addon id="plugin.video.colombiatv"
        name="ColombiaTV"
        version="1.4.6"
@@ -475,6 +641,74 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
     <forum>n/a</forum>
     <website>n/a</website>
   </extension>
+</addon>
+
+<addon id="plugin.video.corban"
+       name="[COLOR yellow]Cor[/COLOR][COLOR blue]ba[COLOR red]n[/COLOR]"
+       version="0.1.0"
+       provider-name="KODIHESAN">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por KODIHESAN</summary>
+    <description>Este Addon esta Creado, para Películas, Series, Series Retro, Zona Infantiles, Anime,  y lo que pidas en Latino.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.covenant" version="1.1.34" name="Covenant" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.colossus" />
+		<import addon="script.module.covenant" />
+		<import addon="script.covenant.artwork" version="1.0.0" />
+		<import addon="script.covenant.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Covenant</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<description lang="hr">[I]Nova generacija[/I][CR][CR][B]Covenant Filmova i TV serija[/B][CR][CR]Ovaj dodatak ne sadrži dijelove Kodi Medijskog Centra. Ne tažite pomoć za ovaj dodatak na službenim kanalima podrške za Kodi.[CR][CR]Autor ne posjeduje bilo kakav sadržaj u ovom dodatku i ne preuzima bilo kakvu odgovornost za pronađeni sadržaj.</description>
+		<description lang="he">[I]הדור החדש[/I][CR][CR][B]Covenant סרטים וסדרות[/B][CR][CR]ההרחבה הזו אינה חלק של Kodi Media Center. אנא אל תבקש עזרה עם ההרחבה זה מכל אחד מערוצי התמיכה הרשמיים של Kodi [CR][CR]. אין למחבר תוכן בהרחבה הזו והמחבר אינו אחראי לתוכן שנמצא.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
+		<disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.dance" name="[COLOR lightblue]Dance Music[/COLOR]"	version="0.1"	provider-name="DJ">
@@ -590,6 +824,34 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
+<addon id="plugin.video.elecdekauy"
+       name="Elecdeka"
+       version="1.0"
+       provider-name="Elecdeka Uruguay">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IPTV</summary>
+    <description>Elecdeka en Uruguay Montevideo
+ </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ElRinconDelTerror"
 	name="[COLOR darkred]EL RINCON DEL TERROR[/COLOR]"
 	version="0.0.1"
@@ -613,6 +875,42 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.exabytetv"
+       name="[B][COLOR aqua]Exabyte TV[/COLOR][/B]"
+       version="2.0"
+       provider-name="Sahid CG">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Exabyte TV</summary>
+    <description>
+        Addon oficial de Exabyte TV
+        Encontrarás todo un mundo de entretenimiento.
+        exabytetv.info
+
+    </description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -652,6 +950,61 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
         <description></description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.FamilyCooking" name="[COLOR gold]Family Cooking[/COLOR]"	version="1.0"	provider-name="KQ">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pulse.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Disfrutando de la cocina con Eli y Georgina</summary>
+    <description lang="en"></description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.fantastic" version="2.4" name="Fantastic" provider-name="Firestickplusman">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.fantastic" />
+		<import addon="script.fantastic.artwork" version="1.0.0" />
+		<import addon="script.fantastic.metadata" version="0.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="fantastic.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">fantastic</summary>
+		<description lang="en">[COLOR blue]A New Fantastic Movies and TV. This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels. The author does not host any of the content in this addon and takes no responsibility for content found[/COLOR].</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
+		<disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.festa"
@@ -711,6 +1064,27 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
+<addon id="plugin.video.football"
+	name="[COLOR skyblue]NCAA Football[/COLOR]"
+	version="2.7.2"
+	provider-name="JAR">
+  <requires>
+    <import addon="xbmc.python" version="2.2.5"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">NCAA y SPAIN</summary>
+    <description lang="es">Football NCAA Y ESPAÑA</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Fusion.org"
        name="** [COLOR limegreen]Fusion.org[/COLOR] **"
        version="0.0.1"
@@ -742,6 +1116,25 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
     </description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.goldentv" name="[B][COLOR yellow]FR[/COLOR][COLOR blue]EE[/COLOR][COLOR red]WOR[/COLOR][COLOR green]LD[/COLOR][/B]" version="3.2.3" provider-name="Freeworld">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Freeworld.Legacy</summary>
+		<description lang="en">Discover Great Streaming Online and Enjoy</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.jerry"
@@ -927,6 +1320,48 @@ enlaces estan colocado de manera libre en interNET.
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.kodispaintv"
+       name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]"
+       version="2.2"
+       provider-name="joheos11">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+		<summary>Canales de la Television Española y más...</summary>
+		<description>
+		Complemento de video basado en LiveStreamsPro
+		Puedes seguirme en https://t.me/kodispain y http://konectas.es
+
+		AVISO LEGAL:
+
+		Este complemento no aloja ningun contenido mostrado.
+		Todo el contenido se encuentra libremente en internet.
+		No se acepta ninguna responsabilidad por el uso de este addon.
+
+		¡Disfruta!
+		</description>
+		<platform>all</platform>
   </extension>
 </addon>
 
@@ -1122,6 +1557,37 @@ em procura livre na internet.. Enjoy !![/COLOR]
   </extension>
 </addon>
 
+<addon id="plugin.video.LosDuros"
+       name="Los Duros"
+       version="1.2"
+       provider-name="Choco IPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>Todo lo que esta en este addon es totalmente gratis y sacado de terceros en la web.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.MagyckPi"
        name="[COLOR deeppink]Magyck[/COLOR][COLOR lime] Pi[/COLOR]"
        version="v.46.2"
@@ -1158,6 +1624,45 @@ em procura livre na internet.. Enjoy !![/COLOR]
   </extension>
 </addon>
 
+<addon id="plugin.video.ManoRoja" name="[COLOR blue]ManoRoja[/COLOR]" version="1.2.0" provider-name="DanValBel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/danvalbel/repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/danvalbel/repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/danvalbel/repo/tree/master/Repositorio</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ManoRoja TV España addon libre de donaciones</summary>
+    <description lang="en">TV España Stop Donaciones Gracias. Los links utilizados los puedes encontrar en internet</description>
+    <platform>all</platform>
+	<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.megaocio"
        name="[COLOR green]megaocio[/COLOR]"
        version="1.0"
@@ -1187,6 +1692,29 @@ em procura livre na internet.. Enjoy !![/COLOR]
     <description>megaocio
     </description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mitvspain"
+    name="Mitvspain"
+    version="1.1.8"
+    provider-name="MiTvSpain - Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Películas y series a la carta</summary>
+    <description lang="es">Películas, series, documentales, anime, ... Todo está en Internet, y ahora en tu media center.</description>
+    <news>Reparados: allcalidad, cinetux, plusdede, mejortorrent, playmax</news>
+
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+  </extension>
+  <extension point="xbmc.service" library="library_service.py" start="login|startup">
   </extension>
 </addon>
 
@@ -1521,6 +2049,42 @@ em procura livre na internet.. Enjoy !![/COLOR]
   </extension>
 </addon>
 
+<addon id="plugin.video.placenta" version="1.1.9" name="Placenta" provider-name="Team Afterbirth">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.placenta" />
+		<import addon="script.placenta.artwork" version="1.0.0" />
+		<import addon="script.placenta.metadata" version="1.0.0" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+        <import addon="plugin.video.youtube"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+        <provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Placenta</summary>
+		<description>Covenant Fork from Echo/Colossus era with Team Afterbirth's updates and new code.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+		<platform>all</platform>
+		<license>Beerware rev. 42</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.Planeta"
        name="Planeta"
        version="1.1.0"
@@ -1633,6 +2197,44 @@ em procura livre na internet.. Enjoy !![/COLOR]
     <summary>Creado por Iker</summary>
     <description>Julio 2017</description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ProyeckMotors"
+       name="[COLOR deeppink]Proyeck[/COLOR][COLOR lime]Motors[/COLOR]"
+       version="v.4"
+       provider-name="Jose">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="MagyckPi Jose">
+        <info>https://raw.githubusercontent.com/RetroBlogPi/MagyckPi/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/RetroBlogPi/MagyckPi/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/RetroBlogPi/MagyckPi/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Hermano Pequeño de MagyckPi</summary>
+    <description>Jose 2017</description>
+    <platform>all</platform>
+	    <news>[B][COLOR deeppink] v.3.5[/B][/COLOR]
+    </news>
   </extension>
 </addon>
 
@@ -1767,6 +2369,21 @@ em procura livre na internet.. Enjoy !![/COLOR]
   <extension point="xbmc.addon.metadata">
     <summary>Creado por torete</summary>
     <description>Para el disfrute en familia</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Royale" name="[COLOR white]Ro[/COLOR][COLOR ff7ec0ee]ya[/COLOR][COLOR white]le[/COLOR][COLOR gold] Wizard[/COLOR]" version="9.9.9" provider-name="[COLOR white]Ca[/COLOR][COLOR ff7ec0ee]to[/COLOR][COLOR white]al[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="lockdown.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR white]Ro[/COLOR][COLOR ff7ec0ee]ya[/COLOR][COLOR white]le[/COLOR][COLOR ff7ec0ee] wizard Para Kodi</summary>
+    <description lang="en">[COLOR white]Ro[/COLOR][COLOR ff7ec0ee]ya[/COLOR][COLOR white]le[/COLOR][COLOR ff7ec0ee] wizard Para Kodi</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1915,6 +2532,55 @@ https://t.me/sinbarreras
   </extension>
 </addon>
 
+<addon
+  id="plugin.video.SportsDevil"
+  version="2018.01.07"
+  name="SportsDevil"
+  provider-name="SportsDevil">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.dateutil" />
+   <import addon="script.module.simplejson" />
+   <import addon="script.module.six" />
+   <import addon="script.module.requests" />
+   <import addon="script.module.livestreamer" />
+   <!-- <import addon="script.video.F4mProxy" /> -->
+   <!-- <import addon="plugin.video.f4mTester" /> -->
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportsDevil addon</summary>
+    <description lang="en">Play videos of different ad-financed sports streaming sites.</description>
+    <description lang="he">נגן סרטונים של אתרי ספורט שונים הממומנים על ידי מודעות.</description>
+    <disclaimer lang="en">SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme.</disclaimer>
+    <disclaimer lang="he">SportsDevil אינו מספק שום הזרמה; איכות הזרם, התוכן וזכויות היוצרים הם באחריות אתר האינטרנט הממומן על ידי המודעה. לעדכונים בדוק את קובץ readme</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sportweb" name="[COLOR coral]SportsWeb[/COLOR]" version="0.0.3" provider-name="Bad-Max">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.requests"/>
+   <import addon="plugin.video.SportsDevil"/>
+   <import addon="program.plexus"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Para Intentar ver lo mejor del Deporte, mediante las Webs mas estables</summary>
+    <description>Plugin Para Intentar ver lo mejor del Deporte, mediante las Webs mas estables... necesario Plex+AceStream, F4MTester y SportsDevil (el de Jairox, sobre todo para los VerLiga.net... y desactivar la opción al SportsDevil la opción 'AutoActualizar'... Gracias También a Goldonx por su siempre desinteresada ayuda) para su correcto Funcionamiento.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.SrRegio1.2.2"
        name="Sr Regio"
        version="1.0"
@@ -1942,6 +2608,35 @@ https://t.me/sinbarreras
 					   Telegram: @SrRegio
 
  </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.SummerTV"
+       name="[COLOR red]SummerTV[/COLOR]"
+       version="0.2"
+       provider-name="Summer">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+   <summary>Sursum Versus</summary>
+    <description>
+	Este addon se mantiene gracias a donaciones voluntarias
+      </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -2199,6 +2894,66 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.tvchopo"
+       name="[COLOR fuchsia]T[/COLOR][COLOR green]V[/COLOR][COLOR yellow]C[/COLOR][COLOR orange]HO[/COLOR][COLOR pink]PO[/COLOR]"
+       version="5.0.9"
+       provider-name="torete">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+ <extension point="xbmc.addon.repository" name="tvchoco Jose">
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por torete</summary>
+    <description>Para el disfrute en familia</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvone" name="tvOne" version="9" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ultraiptv"
        name="Ultra IPTV"
        version="1.0.0"
@@ -2219,6 +2974,27 @@ em procura livre na internet.</description>
 		<platform>all</platform>
 		<repository>Cazlo Repository</repository>
     </extension>
+</addon>
+
+<addon id="plugin.video.UniverseHD" name="[COLOR red]Universe[/COLOR][COLOR white]HD[/COLOR]" version="1.0" provider-name="Universe">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Universe HD</summary>
+    <description lang="en">Movies To Watch For Non Real-Debrid Users.And It Works Even Better For Real Debrid Users. </description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.vipsecret"
@@ -2309,6 +3085,37 @@ em procura livre na internet.</description>
         <description lang="en">vStream module and a french streaming, find all your movies, TV shows and mangas.[CR][CR]Contributeur: Razorex, Kodigoal, Chataigne73, Arias800</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.Wow"
+       name="Wow"
+       version="1.0"
+       provider-name="Tatococoy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">wow! addon</summary>
+    <description lang="en">Este addon es creado para uso exclusivo del grupo wow!</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.xmas"
@@ -2508,6 +3315,79 @@ em procura livre na internet.</description>
     </extension>
 </addon>
 
+<addon id="plugin.video.youtube" name="YouTube" version="6.0.0~alpha6" provider-name="bromix">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py" start="startup"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+[add] Python 3 compat.
+[add] Settings -> Maintenance -> Delete temporary files
+[add] Settings -> General -> Rate video after watching
+[add] Settings -> API -> Enable API configuration page
+        - when enabled, visit http://ipaddress:port/api to configure API keys from a web browser
+        - port is configured in Settings - HTTP Server - Port
+[add] Storing personal api keys in api_keys.json, restore keys from json on settings loss
+[add] Storing login tokens in access_manager.json, restore tokens from json on settings loss
+[add] youtube_registration module, register developer keys and use them by appending an addon_id=:addon_id parameter to youtube add-on plugin urls
+[add] screensaver=true parameter to /play route - no suggested videos, no post play events, don't ask for quality
+[fix] Signature deciphering
+[fix] context menu after playback
+[fix] alternative player, do not append headers
+[fix/upd] post play events happen post play
+[fix/upd] set title from metadata on play
+[upd] Dutch strings [MB1968]
+[upd] French strings [bubuleur]
+[upd] Greek strings [twilight0]
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en_gb">Plugin for YouTube</summary>
+        <description lang="en_gb">YouTube is one of the biggest video-sharing websites of the world.</description>
+        <disclaimer lang="en_gb">This plugin is not endorsed by Google</disclaimer>
+        <summary lang="he_il">תוסף עבור YouTube</summary>
+        <description lang="he_il">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
+        <summary lang="de_de">Plugin für YouTube</summary>
+        <description lang="de_de">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl_pl">Wtyczka YouTube</summary>
+        <description lang="pl_pl">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+        <summary lang="hu_hu">YouTube kiegészítő</summary>
+        <description lang="hu_hu">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es_es">Plugin para YouTube</summary>
+        <description lang="es_es">YouTube es uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
+        <summary lang="ru_ru">Видеодополнение YouTube</summary>
+        <description lang="ru_ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
+        <summary lang="fr_fr">Plugin pour YouTube</summary>
+        <description lang="fr_fr">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh_cn">YouTube附加元件</summary>
+        <description lang="zh_cn">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="bg_bg">Добавка за YouTube</summary>
+        <description lang="bg_bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <summary lang="el_gr">Πρόσθετο YouTube</summary>
+        <description lang="el_gr">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <disclaimer lang="el_gr">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+        <summary lang="nb_no">Tillegg for YouTube</summary>
+        <description lang="nb_no">YouTube er en av verdens største nettsider for videodeling.</description>
+        <language></language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=325740</forum>
+        <website>https://www.youtube.com</website>
+        <email>ytplugin at datanet dot ws</email>
+        <source>https://github.com/jdf76/plugin.video.youtube</source>
+        <size>1776578</size>
+    </extension>
+</addon>
+
 <addon id="plugin.video.Zeus"
        name="[COLOR gold] Zeus[/COLOR]"
        version="4.0.2"
@@ -2626,6 +3506,44 @@ em procura livre na internet.</description>
 	</extension>
 </addon>
 
+    <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.1" provider-name="Mr Blamo">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR red]Blamo Repo[/COLOR]">
+            <info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
+            <hashes>false</hashes>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+			<dir>
+				<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
+				<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
+				<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
+			</dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Official Repo for Mr Blamo</summary>
+            <description>The Official Repo for Mr Blamo</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
+
 <addon id="repository.CanalNereo" name="[COLOR lime]Repo Canal Nereo[/COLOR] Repo" version="1.0.2" provider-name="Canal Nereo">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml</info>
@@ -2650,6 +3568,24 @@ em procura livre na internet.</description>
         <summary>Repositorio para Carnamaleon</summary>
         <description>Instalación y dependencias necesarias para el addon Carnamaleon</description>
         <disclaimer> </disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.9" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Home Of 3rd Party Addons</summary>
+        <description></description>
         <platform>all</platform>
     </extension>
 </addon>
@@ -2696,6 +3632,23 @@ em procura livre na internet.</description>
     </extension>
 </addon>
 
+    <addon id="repository.Firestickplusman" name="Firestickplusman Addons" version="0.1.1" provider-name="Firestickplusman">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Firestickplusman Addons">
+            <info compressed="false">http://fspmkodi.com/_repo/addons.xml</info>
+            <checksum>http://fspmkodi.com/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://fspmkodi.com/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Firestickplusman addon repo</summary>
+            <description>Firestickplusman addon repo to in the best and update addons from Firestickplusman.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.firetvguru" name="Fire TV Guru Repo" version="0.0.5" provider-name="Fire TV Guru Repo">
 	<extension point="xbmc.addon.repository" name="Fire TV Guru Repo">
 		<info compressed="false">https://raw.github.com/Firetvguru/fire-tv/master/addons.xml</info>
@@ -2707,6 +3660,31 @@ em procura livre na internet.</description>
 		<description>My Repository</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="griffin" name="Griffin Repo" version="0.0.6" provider-name="griffin_303">
+	<extension point="xbmc.addon.repository" name="Griffin Repository">
+            <info compressed="false">https://bitbucket.org/griffin303/griffin/raw/master/zips/addons.xml</info>
+                           <checksum>https://bitbucket.org/griffin303/griffin/raw/master/zips/addons.xml.md5</checksum>
+                 <datadir zip="true">https://bitbucket.org/griffin303/griffin/raw/master/zips/</datadir>
+            <hashes>false</hashes>
+                <dir>
+                <info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
+                <checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
+                <datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
+                </dir>
+                        <dir>
+                            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+                        </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Griffin Repo</summary>
+            <description>Home of FinalGear, Joshua and Uranus</description>
+            <platform>all</platform>
+            <genre>movies</genre>
+    </extension>
 </addon>
 
 <addon id="repository.intrcomp" name="[COLOR white][B]INTRCOMP MEDIA[/B][/COLOR]" version="2.6" provider-name="[COLOR white][B]INTRCOMP MEDIA[/B][/COLOR]">
@@ -2880,6 +3858,20 @@ em procura livre na internet.</description>
     </extension>
 </addon>
 
+<addon id="repository.repostva" name="STVA Repo" version="1.0" provider-name="STVA">
+	<extension point="xbmc.addon.repository" name="STVA Repo">
+		<info compressed="false">https://raw.githubusercontent.com/stvabuild/Repo-STVA/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/stvabuild/Repo-STVA/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/stvabuild/Repo-STVA/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>STVA repo</summary>
+   		<description lang="es">Repositorio de addons STVA</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.ronniehd" name="RonnieHD repository" version="1.0.1" provider-name="RonnieHD">
 	<extension point="xbmc.addon.repository" name="RonnieHD Repository">
 		<info compressed="false">https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml</info>
@@ -2922,6 +3914,97 @@ em procura livre na internet.</description>
     </extension>
 </addon>
 
+<addon id="repository.tmb" name="[COLORdodgerblue]Trademark Repository[/COLOR]" version="2.05" provider-name="Trademark">
+<extension point="xbmc.addon.repository" name="Trademark Repository">
+<addon id="plugin.video.thekingdom" name="TheKingdom" version="7.5.1" provider-name="MrGhost">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.9.4.2" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">All In One Streaming Tv</summary>
+      <description lang="en">StreamingTv</description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+       <platform>all</platform>
+      </extension>
+</addon>
+<addon id="plugin.video.oculus" name="Oculus" version="1.26" provider-name="Trademark">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.9.4.2" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">MOVIES-TV SHOWS Powered By TMDB *TRADEMARK TMB</summary>
+      <summary lang="he">הרחבת וידאו Jen</summary>
+      <description lang="en">MOVIES-TV SHOWS Powered By TMDB *TRADEMARK TMB</description>
+      <description lang="he">האחות הקטנה של בוב</description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+      <platform>all</platform>
+        <website>www.noobsandnerds.com</website>
+        <video_guide>xtOqLY5PJDY</video_guide>
+    </extension>
+</addon>
+<addon id="program.plexus"
+       name="Plexus"
+       version="0.1.7"
+       provider-name="enen92, TVAddons, RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>SopCast and AceStream for Kodi</summary>
+    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituída por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para várias plataformas.[CR][CR]Documentação: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus añade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo que poderá ser reproduzido a partir deste addon. Os autores não têm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fórum oficial do Kodi por favor respeite as regras do fórum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+   	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Trademark Repository</summary>
+    <description lang="en">Please visit http://tmbkodi.com click on some of the adverts to help with the server costs. Thank you.</description>
+    <platform>all</platform>
+	<forum>http://koditalk.org/</forum>
+    <website>https://tmbkodi.com/</website>
+  <assets>
+	<icon>repo-icon.png</icon>
+	<fanart>repo-fanart.jpg</fanart>
+  </assets>
+  </extension>
+</addon>
+
 <addon id="repository.tvchopo" name="[COLOR lime]tvchopo[/COLOR] Repo" version="2.0.0" provider-name="torete">
     <extension point="xbmc.addon.repository" name="tvchoco Jose">
         <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
@@ -2947,6 +4030,19 @@ em procura livre na internet.</description>
             <summary>Repository for library addons</summary>
             <description>Repository for library addons</description>
             <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.uwc" name="Ultimate Whitecream repository" version="1.0" provider-name="holisticdioxide">
+    <extension point="xbmc.addon.repository" name="Ultimate Whitecream repository">
+        <info compressed="false">https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ultimate Whitecream repository</summary>
+        <description>Ultimate Whitecream repository</description>
+        <platform>all</platform>
     </extension>
 </addon>
 
@@ -3110,6 +4206,30 @@ Vip Secrettv Repository
     <summary lang="en">Common caching api for xbmc plugins.</summary>
   </extension>
   <extension library="lib" point="xbmc.python.module" />
+</addon>
+
+<addon id="script.covenant.artwork" version="1.0.3" name="Covenant Artwork" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Covenant Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.covenant.metadata" version="1.0.2" name="Covenant Metadata" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Covenant Addon</summary>
+		<description>Metadata for Covenant are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="script.ERDLMaintenance"
@@ -4419,6 +5539,378 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
         <summary lang="en">Proxy for f4m</summary>
         <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
     </extension>
+</addon>
+
+<addon id="skin.amber" version="3.0.7" name="Amber" provider-name="Jester, Joethepartylion, Pecinko">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+    <import addon="script.favourites" version="7.1.1"/>
+    <import addon="script.skin.helper.service" version="1.0.100"/>
+    <import addon="resource.uisounds.amber" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.gui.skin" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Nic zbytečného, jenom vaše media a snadné ovládání</summary>
+    <summary lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer leicht zu navigierenden Oberfläche</summary>
+    <summary lang="en_AU">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_GB">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_NZ">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_US">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="es_ES">Sin chorradas, solo su contenido con una interfaz fácil de navegar</summary>
+    <summary lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.</summary>
+    <summary lang="fr_CA">Pas d'inflagiciel, juste vos médias avec une interface facile à parcourir</summary>
+    <summary lang="fr_FR">Pas d'usine à gaz, juste les médias avec une interface épurée</summary>
+    <summary lang="hu_HU">Semmi pazarlás, csak a médiáid, könnyen navigálható felülettel</summary>
+    <summary lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare</summary>
+    <summary lang="ko_KR">블로트웨어가 아닙니다. 쉬운 탐색 인터페이스를 가진 사용자의 미디어 자체입니다.</summary>
+    <summary lang="lt_LT">Nieko nereikalingo, tik jūsų media įrašai ir lengvai valdoma vartotojo sąsaja</summary>
+    <summary lang="ms_MY">Tiada perisian palsu, hanya media anda dengan antaramuka yang mudah dinavigasi</summary>
+    <summary lang="nb_NO">Ingen tunge og unødvendige funksjoner, bare dine media og ett lettvint grensesnitt</summary>
+    <summary lang="nl_NL">Geen bloatware, alleen jouw media met gemakkelijk te navigeren omgeving</summary>
+    <summary lang="pl_PL">Bez zbędnych funkcji, tylko Twoje media z intuicyjnym interfejsem</summary>
+    <summary lang="pt_BR">Sem bloatware, apenas sua mídia com uma interface fácil de navegar</summary>
+    <summary lang="sl_SI">Brez napihnjenega programja, zgolj vaši mediji z vmesnikom, enostavnim za krmarjenje.</summary>
+    <description lang="ar_SA">بلا برمجيات متضخمة، فقط وسائط </description>
+    <description lang="cs_CZ">No bloatware, just your media with an easy to navigate interface[CR] Použité některé textury z projektů Mediastream a Aeon.</description>
+    <description lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer einfach zu navigierenden Oberfläche.[CR]Benutzt Texturen aus den Mediastream und Aeon skins.</description>
+    <description lang="en_AU">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_NZ">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_US">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="es_ES">Sin chorradas, sólo su contenido con una interfaz fácil de navegar.[CR]Utiliza algunas texturas de los skins Mediastream y Aeon.</description>
+    <description lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.[CR]Käyttää joitakin kuvatiedostoja Mediastream- ja Aeon-ulkoasuista.</description>
+    <description lang="fr_CA">Pas d'inflagiciel, juste vos médias avec une interface facile à parcourir.[CR]Utilise des textures des habillages Mediastream et Aeon.</description>
+    <description lang="fr_FR">Pas d'utilisation excessive des ressources, juste vos médias avec une interface facile à utiliser.[CR]Utilise quelques textures provenant des habillages Mediastream et Aeon.</description>
+    <description lang="he_IL">מעטפת קלילה וללא רכיבים מיותרים, מאפשרת הצגת המדיה עם ממשק משתמש פשוט לניווט.[CR]משתמשת במאפייני עיצוב מסוימים מהמעטפות Mediastream ו־Aeon.</description>
+    <description lang="hu_HU">Semmi pazarlás, csak a médiáid, könnyen navigálható felülettel.[CR]Néhány textúra a Mediastream és Aeon felszínből származik.</description>
+    <description lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare.[CR]Usa alcuni elementi grafici delle skin Mediastream e Aeon.</description>
+    <description lang="ko_KR">블로트웨어가 아닌 그냥 쉬운 탐색 인터페이스를 가진 사용자의 미디어입니다.[CR]Mediastream 과 Aeon 스킨의 텍스처를 사용하였습니다.</description>
+    <description lang="lt_LT">Nieko nereikalingo, tik jūsų media įrašai ir lengvai valdoma vartotojo sąsaja. [CR] Naudoja kai kurias tekstūras iš Mediastream ir Aeon temų.</description>
+    <description lang="ms_MY">Bukan perisian palsu, hanya media anda dengan antaramuka yang mudah dinavigasi.[CR]Gunakan beberapa tekstur dari kulit Mediastream dan Aeon.</description>
+    <description lang="nb_NO">Ingen tunge og unødvendige funksjoner, bare dine media og ett lettvint grensesnitt.[CR]Noen teksturer er hentet fra Mediastream og Aeon -draktene.</description>
+    <description lang="nl_NL">Geen Bloatware. alleen jouw media met een makkelijk te navigeren interface.[CR] gebruikt sommige texturen van Mediastream en Aeon ontwerp.</description>
+    <description lang="pl_PL">Bez bezużytecznych funkcji, tylko Twoje media z łatwym w nawigacji interfejsem.[CR] Wykorzystuje niektóre tekstury skóry Mediastream i Aeon</description>
+    <description lang="pt_BR">Sem excessos, apenas a sua mídia com uma interface fácil de navegar. [CR]Utiliza algumas texturas das skins Mediastream e Aeon.</description>
+    <description lang="pt_PT">Um tema sem excessos que apenas mostra a sua média com uma interface de navegação simples.[CR]Utiliza algumas texturas dos temas Mediastream e Aeon.</description>
+    <description lang="ru_RU">Никаких вирусов, только ваши медиа файлы в простом интерфейсе.[CR]Использует некоторые текстуры из тем Mediastream и Aeon.</description>
+    <description lang="sl_SI">Brez nepotrebnega, le vaše medijske datoteke z enostavnim vmesnikom.[CR]Uporablja nekatere teksture iz tem Mediastream in Aeon.</description>
+    <description lang="sv_SE">Inget överflödigt, bara dina media med enkelt navigeringsinterface.[CR]Använder texturer från skalen Mediastream och Aeon.</description>
+    <description lang="zh_CN">没有花里胡哨的东西，只是你的媒体和易于浏览的界面。[CR]使用了一些来自 Mediastream 和 Aeon 皮肤的纹理材料.</description>
+	<news>3.0.7 (08-04-2017)
+	- Update with mainly bugfixes</news>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+    <forum>http://forum.kodi.tv/forumdisplay.php?fid=203</forum>
+    <source>https://github.com/jester-xbmc/skin.amber</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot01.jpg</screenshot>
+      <screenshot>resources/screenshot02.jpg</screenshot>
+      <screenshot>resources/screenshot03.jpg</screenshot>
+      <screenshot>resources/screenshot04.jpg</screenshot>
+      <screenshot>resources/screenshot05.jpg</screenshot>
+      <screenshot>resources/screenshot06.jpg</screenshot>
+      <screenshot>resources/screenshot07.jpg</screenshot>
+      <screenshot>resources/screenshot08.jpg</screenshot>
+      <screenshot>resources/screenshot09.jpg</screenshot>
+      <screenshot>resources/screenshot10.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="skin.catana" version="1.1.6" name="[COLOR lime]Catana[/COLOR]" provider-name="Catana">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.skinshortcuts" version="0.4.0" />
+		<import addon="plugin.program.autocompletion" version="1.0.1" />
+		<import addon="resource.images.studios.coloured" version="0.0.1" />
+		<import addon="script.skin.helper.service" version="1.0.100" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+		<license/>
+		<forum></forum>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon
+  id="skin.Catoal"
+  version="0.0.1"
+  name="Catoal Skin"
+  provider-name="Catoal">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+	  <import addon="script.favourites" version="6.0.3"/>
+	  <import addon="service.skin.widgets" version="0.0.32"/>
+	  <import addon="service.library.data.provider" version="0.1.6"/>
+	  <import addon="script.randomandlastitems" version="2.2.2"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Catoal Skin basado en Confluence original de Jezz_X and CCM by Mudislander.</summary>
+    <description lang="en">Catoal Skin basado en Confluence original de Jezz_X and CCM by Mudislander.</description>
+    <disclaimer lang="en">Catoal Skin basado en Confluence original de Jezz_X and CCM by Mudislander.</disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+	    <screenshot>resources/screenshot-01.jpg</screenshot>
+	    <screenshot>resources/screenshot-02.jpg</screenshot>
+	    <screenshot>resources/screenshot-03.jpg</screenshot>
+	    <screenshot>resources/screenshot-04.jpg</screenshot>
+	    <screenshot>resources/screenshot-05.jpg</screenshot>
+	    <screenshot>resources/screenshot-06.jpg</screenshot>
+	    <screenshot>resources/screenshot-07.jpg</screenshot>
+	    <screenshot>resources/screenshot-08.jpg</screenshot>
+	    <screenshot>resources/screenshot-09.jpg</screenshot>
+    </assets>
+    <news></news>
+  </extension>
+</addon>
+
+<addon id="skin.amber" version="3.0.7" name="Amber" provider-name="Jester, Joethepartylion, Pecinko">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+    <import addon="script.favourites" version="7.1.1"/>
+    <import addon="script.skin.helper.service" version="1.0.100"/>
+    <import addon="resource.uisounds.amber" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.gui.skin" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Nic zbytečného, jenom vaše media a snadné ovládání</summary>
+    <summary lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer leicht zu navigierenden Oberfläche</summary>
+    <summary lang="en_AU">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_GB">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_NZ">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_US">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="es_ES">Sin chorradas, solo su contenido con una interfaz fácil de navegar</summary>
+    <summary lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.</summary>
+    <summary lang="fr_CA">Pas d'inflagiciel, juste vos médias avec une interface facile à parcourir</summary>
+    <summary lang="fr_FR">Pas d'usine à gaz, juste les médias avec une interface épurée</summary>
+    <summary lang="hu_HU">Semmi pazarlás, csak a médiáid, könnyen navigálható felülettel</summary>
+    <summary lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare</summary>
+    <summary lang="ko_KR">블로트웨어가 아닙니다. 쉬운 탐색 인터페이스를 가진 사용자의 미디어 자체입니다.</summary>
+    <summary lang="lt_LT">Nieko nereikalingo, tik jūsų media įrašai ir lengvai valdoma vartotojo sąsaja</summary>
+    <summary lang="ms_MY">Tiada perisian palsu, hanya media anda dengan antaramuka yang mudah dinavigasi</summary>
+    <summary lang="nb_NO">Ingen tunge og unødvendige funksjoner, bare dine media og ett lettvint grensesnitt</summary>
+    <summary lang="nl_NL">Geen bloatware, alleen jouw media met gemakkelijk te navigeren omgeving</summary>
+    <summary lang="pl_PL">Bez zbędnych funkcji, tylko Twoje media z intuicyjnym interfejsem</summary>
+    <summary lang="pt_BR">Sem bloatware, apenas sua mídia com uma interface fácil de navegar</summary>
+    <summary lang="sl_SI">Brez napihnjenega programja, zgolj vaši mediji z vmesnikom, enostavnim za krmarjenje.</summary>
+    <description lang="ar_SA">بلا برمجيات متضخمة، فقط وسائط </description>
+    <description lang="cs_CZ">No bloatware, just your media with an easy to navigate interface[CR] Použité některé textury z projektů Mediastream a Aeon.</description>
+    <description lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer einfach zu navigierenden Oberfläche.[CR]Benutzt Texturen aus den Mediastream und Aeon skins.</description>
+    <description lang="en_AU">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_NZ">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_US">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="es_ES">Sin chorradas, sólo su contenido con una interfaz fácil de navegar.[CR]Utiliza algunas texturas de los skins Mediastream y Aeon.</description>
+    <description lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.[CR]Käyttää joitakin kuvatiedostoja Mediastream- ja Aeon-ulkoasuista.</description>
+    <description lang="fr_CA">Pas d'inflagiciel, juste vos médias avec une interface facile à parcourir.[CR]Utilise des textures des habillages Mediastream et Aeon.</description>
+    <description lang="fr_FR">Pas d'utilisation excessive des ressources, juste vos médias avec une interface facile à utiliser.[CR]Utilise quelques textures provenant des habillages Mediastream et Aeon.</description>
+    <description lang="he_IL">מעטפת קלילה וללא רכיבים מיותרים, מאפשרת הצגת המדיה עם ממשק משתמש פשוט לניווט.[CR]משתמשת במאפייני עיצוב מסוימים מהמעטפות Mediastream ו־Aeon.</description>
+    <description lang="hu_HU">Semmi pazarlás, csak a médiáid, könnyen navigálható felülettel.[CR]Néhány textúra a Mediastream és Aeon felszínből származik.</description>
+    <description lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare.[CR]Usa alcuni elementi grafici delle skin Mediastream e Aeon.</description>
+    <description lang="ko_KR">블로트웨어가 아닌 그냥 쉬운 탐색 인터페이스를 가진 사용자의 미디어입니다.[CR]Mediastream 과 Aeon 스킨의 텍스처를 사용하였습니다.</description>
+    <description lang="lt_LT">Nieko nereikalingo, tik jūsų media įrašai ir lengvai valdoma vartotojo sąsaja. [CR] Naudoja kai kurias tekstūras iš Mediastream ir Aeon temų.</description>
+    <description lang="ms_MY">Bukan perisian palsu, hanya media anda dengan antaramuka yang mudah dinavigasi.[CR]Gunakan beberapa tekstur dari kulit Mediastream dan Aeon.</description>
+    <description lang="nb_NO">Ingen tunge og unødvendige funksjoner, bare dine media og ett lettvint grensesnitt.[CR]Noen teksturer er hentet fra Mediastream og Aeon -draktene.</description>
+    <description lang="nl_NL">Geen Bloatware. alleen jouw media met een makkelijk te navigeren interface.[CR] gebruikt sommige texturen van Mediastream en Aeon ontwerp.</description>
+    <description lang="pl_PL">Bez bezużytecznych funkcji, tylko Twoje media z łatwym w nawigacji interfejsem.[CR] Wykorzystuje niektóre tekstury skóry Mediastream i Aeon</description>
+    <description lang="pt_BR">Sem excessos, apenas a sua mídia com uma interface fácil de navegar. [CR]Utiliza algumas texturas das skins Mediastream e Aeon.</description>
+    <description lang="pt_PT">Um tema sem excessos que apenas mostra a sua média com uma interface de navegação simples.[CR]Utiliza algumas texturas dos temas Mediastream e Aeon.</description>
+    <description lang="ru_RU">Никаких вирусов, только ваши медиа файлы в простом интерфейсе.[CR]Использует некоторые текстуры из тем Mediastream и Aeon.</description>
+    <description lang="sl_SI">Brez nepotrebnega, le vaše medijske datoteke z enostavnim vmesnikom.[CR]Uporablja nekatere teksture iz tem Mediastream in Aeon.</description>
+    <description lang="sv_SE">Inget överflödigt, bara dina media med enkelt navigeringsinterface.[CR]Använder texturer från skalen Mediastream och Aeon.</description>
+    <description lang="zh_CN">没有花里胡哨的东西，只是你的媒体和易于浏览的界面。[CR]使用了一些来自 Mediastream 和 Aeon 皮肤的纹理材料.</description>
+	<news>3.0.7 (08-04-2017)
+	- Update with mainly bugfixes</news>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+    <forum>http://forum.kodi.tv/forumdisplay.php?fid=203</forum>
+    <source>https://github.com/jester-xbmc/skin.amber</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot01.jpg</screenshot>
+      <screenshot>resources/screenshot02.jpg</screenshot>
+      <screenshot>resources/screenshot03.jpg</screenshot>
+      <screenshot>resources/screenshot04.jpg</screenshot>
+      <screenshot>resources/screenshot05.jpg</screenshot>
+      <screenshot>resources/screenshot06.jpg</screenshot>
+      <screenshot>resources/screenshot07.jpg</screenshot>
+      <screenshot>resources/screenshot08.jpg</screenshot>
+      <screenshot>resources/screenshot09.jpg</screenshot>
+      <screenshot>resources/screenshot10.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+	id="skin.sky.krypton"
+	version="1.2"
+	name="Sky(Krypton)"
+	provider-name="ClassicNancy">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.skinshortcuts" version="1.0.8"/>
+		<import addon="script.skin.helper.service" version="1.0.60"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin"
+		debugging="false"
+		effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Sky skin modded by ClassicNancy. Thank you Eddage for your Unity skin. Thank you to terrytibbs from whom I ported the sky guide epg.</summary>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<platform>all</platform>
+		</extension>
+</addon>
+
+<addon id="skin.amber" version="3.0.7" name="Amber" provider-name="Jester, Joethepartylion, Pecinko">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+    <import addon="script.favourites" version="7.1.1"/>
+    <import addon="script.skin.helper.service" version="1.0.100"/>
+    <import addon="resource.uisounds.amber" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.gui.skin" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Nic zbytečného, jenom vaše media a snadné ovládání</summary>
+    <summary lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer leicht zu navigierenden Oberfläche</summary>
+    <summary lang="en_AU">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_GB">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_NZ">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="en_US">No bloatware, just your media with an easy to navigate interface</summary>
+    <summary lang="es_ES">Sin chorradas, solo su contenido con una interfaz fácil de navegar</summary>
+    <summary lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.</summary>
+    <summary lang="fr_CA">Pas d'inflagiciel, juste vos médias avec une interface facile à parcourir</summary>
+    <summary lang="fr_FR">Pas d'usine à gaz, juste les médias avec une interface épurée</summary>
+    <summary lang="hu_HU">Semmi pazarlás, csak a médiáid, könnyen navigálható felülettel</summary>
+    <summary lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare</summary>
+    <summary lang="ko_KR">블로트웨어가 아닙니다. 쉬운 탐색 인터페이스를 가진 사용자의 미디어 자체입니다.</summary>
+    <summary lang="lt_LT">Nieko nereikalingo, tik jūsų media įrašai ir lengvai valdoma vartotojo sąsaja</summary>
+    <summary lang="ms_MY">Tiada perisian palsu, hanya media anda dengan antaramuka yang mudah dinavigasi</summary>
+    <summary lang="nb_NO">Ingen tunge og unødvendige funksjoner, bare dine media og ett lettvint grensesnitt</summary>
+    <summary lang="nl_NL">Geen bloatware, alleen jouw media met gemakkelijk te navigeren omgeving</summary>
+    <summary lang="pl_PL">Bez zbędnych funkcji, tylko Twoje media z intuicyjnym interfejsem</summary>
+    <summary lang="pt_BR">Sem bloatware, apenas sua mídia com uma interface fácil de navegar</summary>
+    <summary lang="sl_SI">Brez napihnjenega programja, zgolj vaši mediji z vmesnikom, enostavnim za krmarjenje.</summary>
+    <description lang="ar_SA">بلا برمجيات متضخمة، فقط وسائط </description>
+    <description lang="cs_CZ">No bloatware, just your media with an easy to navigate interface[CR] Použité některé textury z projektů Mediastream a Aeon.</description>
+    <description lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer einfach zu navigierenden Oberfläche.[CR]Benutzt Texturen aus den Mediastream und Aeon skins.</description>
+    <description lang="en_AU">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_NZ">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="en_US">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    <description lang="es_ES">Sin chorradas, sólo su contenido con una interfaz fácil de navegar.[CR]Utiliza algunas texturas de los skins Mediastream y Aeon.</description>
+    <description lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.[CR]Käyttää joitakin kuvatiedostoja Mediastream- ja Aeon-ulkoasuista.</description>
+    <description lang="fr_CA">Pas d'inflagiciel, juste vos médias avec une interface facile à parcourir.[CR]Utilise des textures des habillages Mediastream et Aeon.</description>
+    <description lang="fr_FR">Pas d'utilisation excessive des ressources, juste vos médias avec une interface facile à utiliser.[CR]Utilise quelques textures provenant des habillages Mediastream et Aeon.</description>
+    <description lang="he_IL">מעטפת קלילה וללא רכיבים מיותרים, מאפשרת הצגת המדיה עם ממשק משתמש פשוט לניווט.[CR]משתמשת במאפייני עיצוב מסוימים מהמעטפות Mediastream ו־Aeon.</description>
+    <description lang="hu_HU">Semmi pazarlás, csak a médiáid, könnyen navigálható felülettel.[CR]Néhány textúra a Mediastream és Aeon felszínből származik.</description>
+    <description lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare.[CR]Usa alcuni elementi grafici delle skin Mediastream e Aeon.</description>
+    <description lang="ko_KR">블로트웨어가 아닌 그냥 쉬운 탐색 인터페이스를 가진 사용자의 미디어입니다.[CR]Mediastream 과 Aeon 스킨의 텍스처를 사용하였습니다.</description>
+    <description lang="lt_LT">Nieko nereikalingo, tik jūsų media įrašai ir lengvai valdoma vartotojo sąsaja. [CR] Naudoja kai kurias tekstūras iš Mediastream ir Aeon temų.</description>
+    <description lang="ms_MY">Bukan perisian palsu, hanya media anda dengan antaramuka yang mudah dinavigasi.[CR]Gunakan beberapa tekstur dari kulit Mediastream dan Aeon.</description>
+    <description lang="nb_NO">Ingen tunge og unødvendige funksjoner, bare dine media og ett lettvint grensesnitt.[CR]Noen teksturer er hentet fra Mediastream og Aeon -draktene.</description>
+    <description lang="nl_NL">Geen Bloatware. alleen jouw media met een makkelijk te navigeren interface.[CR] gebruikt sommige texturen van Mediastream en Aeon ontwerp.</description>
+    <description lang="pl_PL">Bez bezużytecznych funkcji, tylko Twoje media z łatwym w nawigacji interfejsem.[CR] Wykorzystuje niektóre tekstury skóry Mediastream i Aeon</description>
+    <description lang="pt_BR">Sem excessos, apenas a sua mídia com uma interface fácil de navegar. [CR]Utiliza algumas texturas das skins Mediastream e Aeon.</description>
+    <description lang="pt_PT">Um tema sem excessos que apenas mostra a sua média com uma interface de navegação simples.[CR]Utiliza algumas texturas dos temas Mediastream e Aeon.</description>
+    <description lang="ru_RU">Никаких вирусов, только ваши медиа файлы в простом интерфейсе.[CR]Использует некоторые текстуры из тем Mediastream и Aeon.</description>
+    <description lang="sl_SI">Brez nepotrebnega, le vaše medijske datoteke z enostavnim vmesnikom.[CR]Uporablja nekatere teksture iz tem Mediastream in Aeon.</description>
+    <description lang="sv_SE">Inget överflödigt, bara dina media med enkelt navigeringsinterface.[CR]Använder texturer från skalen Mediastream och Aeon.</description>
+    <description lang="zh_CN">没有花里胡哨的东西，只是你的媒体和易于浏览的界面。[CR]使用了一些来自 Mediastream 和 Aeon 皮肤的纹理材料.</description>
+	<news>3.0.7 (08-04-2017)
+	- Update with mainly bugfixes</news>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+    <forum>http://forum.kodi.tv/forumdisplay.php?fid=203</forum>
+    <source>https://github.com/jester-xbmc/skin.amber</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot01.jpg</screenshot>
+      <screenshot>resources/screenshot02.jpg</screenshot>
+      <screenshot>resources/screenshot03.jpg</screenshot>
+      <screenshot>resources/screenshot04.jpg</screenshot>
+      <screenshot>resources/screenshot05.jpg</screenshot>
+      <screenshot>resources/screenshot06.jpg</screenshot>
+      <screenshot>resources/screenshot07.jpg</screenshot>
+      <screenshot>resources/screenshot08.jpg</screenshot>
+      <screenshot>resources/screenshot09.jpg</screenshot>
+      <screenshot>resources/screenshot10.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="skin.xonfluence"
+  version="3.3.18"
+  name="Xonfluence"
+  provider-name="Helly">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+	  <import addon="script.favourites" version="6.0.3"/>
+	  <import addon="service.skin.widgets" version="0.0.32"/>
+	  <import addon="service.library.data.provider" version="0.1.6"/>
+	  <import addon="script.randomandlastitems" version="2.2.2"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+    <summary lang="en_US">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+    <summary lang="nl">Uitgebreide MOD van Confluence skin origineel door Jezz_X en CCM door Mudislander.</summary>
+    <description lang="en">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+    <description lang="en_US">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+    <description lang="nl">Xonfluence is een MOD van Confluence om een grotere aanpassingsmogelijkheid te geven ten opzichten van de standaard skin (gebaseerd op Mudislander's CCM).</description>
+    <disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
+    <disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
+    <disclaimer lang="nl">Wie zijn billen brandt - moet op de blaren zitten</disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+	    <screenshot>resources/screenshot-01.jpg</screenshot>
+	    <screenshot>resources/screenshot-02.jpg</screenshot>
+	    <screenshot>resources/screenshot-03.jpg</screenshot>
+	    <screenshot>resources/screenshot-04.jpg</screenshot>
+	    <screenshot>resources/screenshot-05.jpg</screenshot>
+	    <screenshot>resources/screenshot-06.jpg</screenshot>
+	    <screenshot>resources/screenshot-07.jpg</screenshot>
+	    <screenshot>resources/screenshot-08.jpg</screenshot>
+	    <screenshot>resources/screenshot-09.jpg</screenshot>
+    </assets>
+    <news>See changelog for latest changes</news>
+  </extension>
 </addon>
 
 <addon id="superrepo.kodi.krypton.all" name="SuperRepo All [Krypton][v7]" version="0.7.04" provider-name="Bart Otten">
