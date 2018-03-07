@@ -26,54 +26,6 @@
 
 </addon>
 
-<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.2" provider-name="Chem@i">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-  <summary>ADV Set - Utilidades by Chem@i</summary>
-  <description>ADV Set. Utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Utilízalo con precaución.</description>
-	<news>[B]v 2.2[/B]
-[COLOR green][B]Utilidades[/B][/COLOR]
-* Limpieza Automática (habilitada par defecto)
-* Limpieza Manual (cache, iconos, thumbnails,..)
-* Mantenimiento del sistema, Ver log, Errores, updates,...
-* BackUp (Clonación de la compilación utilizada)
-* Configurador de Advanced Settings
-* Test de velocidad
-* traduccion al castellano
-* ...
-	  </news>
-	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
-	  <platform>all</platform>
-	  <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    			<screenshot>resources/media/screenshot000.jpg</screenshot>
-    			<screenshot>resources/media/screenshot001.jpg</screenshot>
-    			<screenshot>resources/media/screenshot002.jpg</screenshot>
-    			<screenshot>resources/media/screenshot003.jpg</screenshot>
-    			<screenshot>resources/media/screenshot004.jpg</screenshot>
-    </assets>
-    <license>GNU/GPL - v2</license>
-    <forum>https://docs.google.com/document/d/1nMUbPzMsP8f96eQBmLrd3vgYkEOyCAsfGif76VzazDM/edit</forum>
-    <website>web</website>
-    <email>my@email.com</email>
-    <source>https://</source>
-  </extension>
-
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
-    </extension>
-
-</addon>
-
 <addon id="plugin.program.SpeedTester.net" name="SpeedTester.net" version="1.0.2" provider-name="Twilight0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -146,48 +98,6 @@
     <summary lang="en">lista Al Andalus</summary>
     <description lang="en">CANALES RETRASMITIDOS POR INTERNET Y OTRAS PLATAFORMAS</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.alfa" name="Alfa" version="2.4.15" provider-name="Alfa Addon">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.libtorrent" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Navega con Kodi por páginas web.</summary>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
-    </assets>
-      <news>[B]Estos son los cambios para esta versión:[/B]
-      [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      » hdfull                    »          pelisplus
-      » cinemahd             »          cinecalidad
-      » peliculasgratis     »          pelisplusco
-      » ultrapeliculashd  »          thevideome
-      ¤ arreglos internos
-      [COLOR green]Gracias a [B][COLOR yellow]atomizasser[/COLOR][/B] por su colaboración en esta versión[/COLOR]
-    </news>
-    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
-    <summary lang="en">Browse web pages using Kodi</summary>
-    <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
-    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>foro</forum>
-    <website>web</website>
-    <email>my@email.com</email>
-    <source>https://github.com/alfa-addon/addon</source>
-  </extension>
-  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
   </extension>
 </addon>
 
@@ -516,27 +426,6 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.cine" name="Cine" version="1.0.57" provider-name="Topo">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Cine</summary>
-    <description>Addon de Cine</description>
-    <disclaimer></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
   </extension>
 </addon>
 
@@ -1041,48 +930,6 @@ enlaces estan colocado de manera libre en interNET.
   </extension>
 </addon>
 
-<addon id="plugin.video.kodispaintv"
-       name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]"
-       version="2.1.1"
-       provider-name="joheos11">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-		<summary>Canales de la Television Española y más...</summary>
-		<description>
-		Complemento de video basado en LiveStreamsPro
-		Puedes seguirme en https://t.me/kodispain y http://konectas.es
-
-		AVISO LEGAL:
-
-		Este complemento no aloja ningun contenido mostrado.
-		Todo el contenido se encuentra libremente en internet.
-		No se acepta ninguna responsabilidad por el uso de este addon.
-
-		Enjoy!
-		</description>
-		<platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.KodiTrailers"
        name="[COLOR yellow]KodiTrailers[/COLOR]"
        version="1.0.2"
@@ -1272,37 +1119,6 @@ em procura livre na internet.. Enjoy !![/COLOR]
             <icon>icon.png</icon>
             <fanart>fanart.gif</fanart>
         </assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.LosDuros"
-       name="Los Duros"
-       version="1.2"
-       provider-name="Choco IPTV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description>Todo lo que esta en este addon es totalmente gratis y sacado de terceros en la web.</description>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1820,44 +1636,6 @@ em procura livre na internet.. Enjoy !![/COLOR]
   </extension>
 </addon>
 
-<addon id="plugin.video.ProyeckMotors"
-       name="[COLOR deeppink]Proyeck[/COLOR][COLOR lime]Motors[/COLOR]"
-       version="v.3.5"
-       provider-name="Jose">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.repository" name="MagyckPi Jose">
-        <info>https://raw.githubusercontent.com/RetroBlogPi/MagyckPi/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/RetroBlogPi/MagyckPi/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/RetroBlogPi/MagyckPi/master/Repositorio/</datadir>
-    </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Hermano Pequeño de MagyckPi</summary>
-    <description>Jose 2017</description>
-    <platform>all</platform>
-	    <news>[B][COLOR deeppink] v.3.5[/B][/COLOR]
-    </news>
-  </extension>
-</addon>
-
 <addon id="plugin.video.PTOTOIPTV"
        name="[B][COLOR aqua]PTOTOIPTV TV[/COLOR][/B]"
        version="1.0"
@@ -2133,55 +1911,6 @@ addonsinbarreras@gmail.com
 
 https://t.me/sinbarreras
 	</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="2017.11.01"
-  name="SportsDevil"
-  provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="script.module.livestreamer" />
-   <!-- <import addon="script.video.F4mProxy" /> -->
-   <!-- <import addon="plugin.video.f4mTester" /> -->
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">SportsDevil addon</summary>
-    <description lang="en">Play videos of different ad-financed sports streaming sites.</description>
-    <description lang="he">נגן סרטונים של אתרי ספורט שונים הממומנים על ידי מודעות.</description>
-    <disclaimer lang="en">SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme.</disclaimer>
-    <disclaimer lang="he">SportsDevil אינו מספק שום הזרמה; איכות הזרם, התוכן וזכויות היוצרים הם באחריות אתר האינטרנט הממומן על ידי המודעה. לעדכונים בדוק את קובץ readme</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.sportweb" name="[COLOR coral]SportsWeb[/COLOR]" version="0.0.1" provider-name="Bad-Max">
-  <requires>
-   <import addon="xbmc.python" version="2.1.0"/>
-   <import addon="script.module.requests"/>
-   <import addon="plugin.video.SportsDevil"/>
-   <import addon="program.plexus"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Para Intentar ver lo mejor del Deporte, mediante las Webs mas estables</summary>
-    <description>Plugin Para Intentar ver lo mejor del Deporte, mediante las Webs mas estables... necesario Plex+AceStream, F4MTester y SportsDevil (el de Jairox, sobre todo para los VerLiga.net... y desactivar la opción al SportsDevil la opción 'AutoActualizar'... Gracias También a Goldonx por su siempre desinteresada ayuda) para su correcto Funcionamiento.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -2467,42 +2196,6 @@ em procura livre na internet.</description>
     <source>https://github.com/tvalacarta/tvalacarta</source>
   </extension>
   <extension point="xbmc.service" library="service.py" start="login|startup">
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvchopo"
-       name="[COLOR fuchsia]T[/COLOR][COLOR green]V[/COLOR][COLOR yellow]C[/COLOR][COLOR orange]HO[/COLOR][COLOR pink]PO[/COLOR]"
-       version="5.0.8"
-       provider-name="torete">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
- <extension point="xbmc.addon.repository" name="tvchoco Jose">
-        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
-    </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado por torete</summary>
-    <description>Para el disfrute en familia</description>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -3518,7 +3211,7 @@ Vip Secrettv Repository
   </requires>
   <extension point="xbmc.python.script"
              library="default.py">
-        <provides>executable</provides>
+        <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Test de velocidad</summary>
