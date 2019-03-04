@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.FusionOrg"
+    name="Fusion Org"
+    version="0.28"
+    provider-name="Team-Fusion">
+    <requires>
+    <import version="2.25.0" addon="xbmc.python"/>
+    <import addon="plugin.video.youtube" version="6.2.3"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.urlresolver" version="2.10.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.trakt" version="3.2.0" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Fusion Org</summary>
+    <description lang="en">The Future is in You</description>
+    <summary lang="es">Fusion Org</summary>
+    <description lang="es">El Futuro esta en Ustedes</description>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/media/ss/1.jpg</screenshot>
+		<screenshot>resources/media/ss/2.jpg</screenshot>
+		<screenshot>resources/media/ss/3.jpg</screenshot>
+		<screenshot>resources/media/ss/4.jpg</screenshot>
+    </assets>
+    <news>
+    Cambios de la version 0.28
+* Se agregaron colecciones a UpToBox
+* Se agrego año a titulos de pelicula
+* Se corrigio el acceso a herramientas
+* Nueva categoria por año en peliculas
+* Colecciones por Artista o por Secuela
+    </news>
+    <platform>all</platform>
+  </extension>
+</addon>

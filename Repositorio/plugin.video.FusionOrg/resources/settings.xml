@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+	<settings>
+		<category label="Login">
+			<setting label="Inicia Sesion en FusionOrg" type="lsep"/>
+			<setting label="Usuario" type="text"   id="username" default=""/>
+			<setting label="Contraseña" type="text"   id="password" option="hidden"  enable="!eq(-1,)" default=""/>
+			<setting type="sep"/>
+			<setting type="sep"/>
+			<setting label="Inicia Sesion en UPtoBOX" type="lsep"/>
+			<setting label="Usuario" type="text"   id="username_utb" default=""/>
+			<setting label="Contraseña" type="text"   id="password_utb" option="hidden"  enable="!eq(-1,)" default=""/>
+			<setting label="Obtener Token de Uptobox (Presiona aqui)" type="action" option="close" action="RunPlugin(plugin://plugin.video.FusionOrg/?mode=get_token_uptobox)"/>
+	</category>
+	
+	<category label="Language">
+		<setting label="Select Language" type="select" id="language" default="Latino"    values="Latino" /> 
+	</category>
+	
+	<category label="Mis Listas">
+		<setting label="Agregar nueva lista a mis listas." type="lsep"/>
+		<setting label="Fuente de la lista:" id="new_file_type" type="enum" values="Archivo Local|URL" default=""/>
+		<setting label="Seleccionar Lista" id="new_file_list" type="file" source="files" default="" mask="*.json|*.m3u|*.xml" visible="eq(-1,0)"/>
+		<setting label="Agrega la URL:" id="new_url_list" type="text" default="" visible="eq(-2,1)"/>
+		<setting label="Seleccionar logo:" id="new_poster_list" type="file" source="files" default="" mask="*.jpg|*.jpeg|*.png"/>
+		<setting label="Seleccionar fondo:" id="new_fanart_list" type="file" source="files" default="" mask="*.jpg|*.jpeg|*.png"/>
+		<setting label="Nombre de la Lista:" id="new_name_list" type="text"/>
+		<setting label="Descripcion de la Lista:" id="new_synopsis_list" type="text"/>
+		<setting type="sep" />
+		<setting label="Agregar Mi Lista (Presiona aqui)" type="action" option="close" action="RunPlugin(plugin://plugin.video.FusionOrg/?mode=add_my_list)"/>
+	</category>
+	
+	<category label="Listas Compartidas">
+		<setting label="Agregar nueva lista compartida." type="lsep"/>
+		<setting label="Fuente de la lista:" id="new_file_share_type" type="enum" values="Archivo Local|URL" default=""/>
+		<setting label="Seleccionar Lista" id="new_file_share_list" type="file" source="files" default="" mask="*.json|*.m3u|*.xml" visible="eq(-1,0)"/>
+		<setting label="Agrega la URL:" id="new_url_share_list" type="text" default="" visible="eq(-2,1)"/>
+		<setting label="URL del logo:" id="new_poster_share_list" type="text" default=""/>
+		<setting label="URL del fondo:" id="new_fanart_share_list" type="text" default=""/>
+		<setting label="Nombre de la Lista:" id="new_name_share_list" type="text"/>
+		<setting label="Descripcion de la Lista:" id="new_synopsis_share_list" type="text"/>
+		<setting type="sep" />
+		<setting label="Agregar Lista Comparida (Presiona aqui)" type="action" option="close" action="RunPlugin(plugin://plugin.video.FusionOrg/?mode=add_share_list)"/>
+	</category>
+	
+</settings>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.sport365.es"
+    name="Sport365.es"
+    version="3.65"
+    provider-name="desconocido">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <source></source>
+	<summary>Sport365.live</summary>
+    <description>Basado en el addon deportesalacarta. Canal de deportes sport365 live.      
+    </description>
+  </extension>
+</addon>

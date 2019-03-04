@@ -1,0 +1,23 @@
+
+[
+
+{
+"Folder":"False",
+"Titulo":"Azteca 7",
+"Poster":"https://destel.mx/wp-content/uploads/2016/04/418.png",
+"Fondo":"http://3.bp.blogspot.com/_2ZVL8SbRjtw/TT5cocu1DhI/AAAAAAAADpY/SWrZ8xmqkog/s1600/calendario+azteca.jpg",
+"Sinopsis":"Descripcion del Video",
+"Enlace":"http://aztecalive-lh.akamaihd.net:80/i/0qm7cjvop_1@502476/index_3_av-p.m3u8"
+
+},
+{
+"Folder":"True",
+"Titulo":"Ejemplo de Carpeta",
+"Poster":"https://cdn.pixabay.com/photo/2012/04/01/13/06/folder-23397_960_720.png",
+"Fondo":"http://3.bp.blogspot.com/_2ZVL8SbRjtw/TT5cocu1DhI/AAAAAAAADpY/SWrZ8xmqkog/s1600/calendario+azteca.jpg",
+"Sinopsis":"Esta es una Carpeta",
+"Enlace":"http://fusionorg.net/examples/folder.json"
+
+}
+
+]
